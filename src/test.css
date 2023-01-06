@@ -1,0 +1,72 @@
+.location-modal-container {
+  position: absolute;
+  bottom: 0;
+  padding: 5px 20px 20px;
+  border-radius: 5px;
+  box-shadow: 0 8px 10px 0 rgba(10, 31, 68, 0.1);
+  background-color: #fff;
+}
+
+.location-modal-container > p:first-child {
+  text-align: right;
+}
+
+.location-modal-container > p:nth-child(2) {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  line-height: 0;
+}
+
+form > p {
+  text-align: center;
+  margin-right: 20px;
+}
+
+form > input {
+  border: none;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+form > input:focus {
+  outline: none;
+}
+
+.location-info-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 0.4;
+}
+
+.location-info-container > p {
+  margin-left: 5px;
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.location-info-container > p > svg {
+  transform: translateY(5px);
+}
+
+.location-info > p:first-child {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.location-info > p:nth-child(2) {
+  font-size: 14px;
+}
